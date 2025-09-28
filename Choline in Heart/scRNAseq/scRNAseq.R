@@ -35,7 +35,7 @@ library("CellChat") # Communication
 # library(copykat) # CNV
 # library(ArchR)
 # Load data---------------------------------------------------------------------
-setwd("C:/D/Project/65.Choline/")
+setwd("Choline/")
 # options(future.globals.maxSize = 1000 * 1024^2) # 设置为1GB
 set.seed(1011)
 
@@ -44,7 +44,7 @@ colors_list = c('#E76254','#EF8A47','#f4a494','#FFE6B7','#AADCE0','#528FAD',
                 '#a4549c','#1E466E','#C7B8BD','#8C4834','#C17E65','#645cac',
                 '#EFD061','#547857','#c49c94','#f7b6d2','#dbdb8d')
 
-setwd("C:/D/Project/65.Choline/Result/scRNAseq/")
+setwd("Choline/Result/scRNAseq/")
 hub <- c("choline","sham")
 names(hub) <- hub
 
@@ -56,7 +56,7 @@ Heart <- hub %>%
     project = "Heart",
     assay = "RNA")
 
-setwd("C:/D/Project/65.Choline/")
+setwd("Choline/")
 
 dim(Heart@assays$RNA$counts)
 # [1] 33696 26164
