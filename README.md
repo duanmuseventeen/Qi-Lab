@@ -1,2 +1,2 @@
 # Qi-Lab
-Qi lab in China Pharmaceutical Universtiy, Nanjing, China.
+Dr. Qi Lian-Wen's lab in China Pharmaceutical Universtiy, Nanjing, China.
